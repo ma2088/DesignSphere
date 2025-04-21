@@ -132,6 +132,14 @@
     function toggleColor() {
       document.body.classList.toggle("dark-mode");
     }
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('loginSuccess').classList.remove('d-none');
+    });
+    document.getElementById('registerForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('registerSuccess').classList.remove('d-none');
+    });
   </script>
 </body>
 </html>
