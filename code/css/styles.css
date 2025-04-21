@@ -27,6 +27,14 @@ img {
   border: 20px solid #000000;
 }
 
+.name-of-page {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 10px;
+}
+
 /* Hero Section spacing */
 .container.my-5 {
   margin-top: 3rem;
