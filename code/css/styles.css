@@ -65,7 +65,34 @@ footer {
   bottom: 20px;
   left: 20px;
   width: 650px;
+/*  border-radius: 10px;*/
+  box-sizing: border-box;
+  border: 2px solid #000000;
+/*  background-color: #23e882;*/
+  overflow: hidden;
+  display: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+/*  color: #b41218;*/
 }
+
+.test-footer{
+  border-radius: 10px;
+  box-sizing: border-box;
+/*  border: 2px solid #000000;*/
+  background-color: #23e882;
+  overflow: hidden;
+  display: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 
 footer h5 {
   margin-bottom: 0.5rem;
