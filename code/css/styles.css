@@ -8,7 +8,7 @@ body {
 
 /* Dark mode styles */
 .dark-mode {
-  background-color: #9c72b7;
+  background-color: #A5ACC3;
   color: #ffffff;
 }
 
@@ -24,7 +24,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  border: 20px solid #000000;
+  border: 20px solid gray;
 }
 
 .name-of-page {
@@ -65,6 +65,25 @@ footer {
   bottom: 20px;
   left: 20px;
   width: 650px;
+}
+.return-button{
+	border-radius: 10px;
+	box-sizing: border;
+    background-color: #23e882;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left: 1px;
+	padding-right: 1px;
+	text-decoration: none;
+	text: bold;
+	color: black;
+}
+.return-button:hover{
+	background-color: #A5ACC3;
 }
 
 .test-footer{
