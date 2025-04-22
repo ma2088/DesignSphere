@@ -68,14 +68,15 @@ footer {
 }
 .return-button{
 	border-radius: 10px;
+	width: 300px;
 	box-sizing: border;
     background-color: #23e882;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 15px;
-	padding-top: 10px;
-	padding-bottom:10px;
+	padding-top: 5px;
+	padding-bottom:5px;
 	padding-left: 1px;
 	padding-right: 1px;
 	text-decoration: none;
