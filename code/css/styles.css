@@ -11,6 +11,9 @@ body {
   background-color: #A5ACC3;
   color: #ffffff;
 }
+h3{
+	text: bold;
+}
 
 /* Navbar brand styling  */
 .navbar-brand {
